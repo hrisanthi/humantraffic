@@ -1,0 +1,74 @@
+body{
+  background-color: #7786a0;
+}
+
+.container{
+
+  background-color: white;
+}
+
+#city{
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+#definition{
+  margin-top: 10px;
+}
+
+
+@-webkit-keyframes pulse_animation {
+	0% { -webkit-transform: scale(1); }
+	30% { -webkit-transform: scale(1); }
+	40% { -webkit-transform: scale(1.2); }
+	50% { -webkit-transform: scale(1); }
+	60% { -webkit-transform: scale(1); }
+	70% { -webkit-transform: scale(1.1  ); }
+	80% { -webkit-transform: scale(1); }
+	100% { -webkit-transform: scale(1); }
+}
+
+.pulse {
+	-webkit-animation-name: 'pulse_animation';
+	-webkit-animation-duration: 3000ms;
+	-webkit-transform-origin:50% 70%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#game{
+  position: absolute;
+  top: 8%;
+  left: 53%;
+}
+
+#setting{
+  position: absolute;
+  top: 20%;
+  left: 84%;
+}
+
+#victim{
+  position: absolute;
+  top: 58%;
+  left: 78%;
+}
+
+#pimp{
+  position: absolute;
+  top: 58%;
+  left: 73%;
+}
+
+#family{
+  position: absolute;
+  top: 48%;
+  left: 60%;
+}
+
+#madam{
+  position: absolute;
+  top: 58%;
+  left: 45%;
+}

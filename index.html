@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Human Trafficking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+
+        $(document).ready(function(){
+
+        $('.pulse').click(function(){
+              $('.targetDef').hide();
+              $('#div'+$(this).attr('target')).show();
+        });
+
+
+});
+
+</script>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+  <img id="city" src="img/city.png">
+
+
+  <a target="1" id="game" class="button pulse"><img src="img/dot.png"></a>
+  <a target="2" id="victim" class="button pulse"><img src="img/dot.png"></a>
+  <a target="3" id="pimp" class="button pulse"><img src="img/dot.png"></a>
+  <a target="4" id="family" class="button pulse"><img src="img/dot.png"></a>
+  <a target="5" id="madam" class="button pulse"><img src="img/dot.png"></a>
+  <a target="6" id="motel" class="button pulse"><img src="img/dot.png"></a>
+  <a target="7" id="customer" class="button pulse"><img src="img/dot.png"></a>
+  <a target="8" id="truck" class="button pulse"><img src="img/dot.png"></a>
+</div>
+</div>
+</div>
+<div id="definition" class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+  <div id="div1" class="targetDef" style="display: none">
+    <h1>The Game — </h1>
+    <p>The subculture of prostitution comes complete with its own set of rules and language.
+      The game refers to prostitution as being something easy and fun when in reality it is harsher.
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
