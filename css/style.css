@@ -35,6 +35,13 @@ body{
 
 }
 
+#source{
+  font-style: italic;
+  font-size: 9px;
+  color: gray;
+  background-color: white;
+}
+
 
 #city{
   width: 100%;
@@ -52,51 +59,57 @@ body{
 }
 
 
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
 #setting{
   position: absolute;
-  top: 19%;
+  top: 18%;
   left: 71%;
 }
 
 #victim{
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 78%;
 }
 
 #pimp{
   position: absolute;
-  top: 62%;
+  top: 58%;
   left: 72%;
 }
 
 #family{
   position: absolute;
-  top: 55%;
+  top: 51%;
   left: 60%;
 }
 
 #madam{
   position: absolute;
-  top: 63%;
+  top: 59%;
   left: 46%;
 }
 
 #bank{
   position: absolute;
-  top: 36%;
+  top: 33%;
   left: 33%;
 }
 
 #customer{
   position: absolute;
-  top: 59%;
+  top: 56%;
   left: 22%;
 }
 
 #truck{
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 13%;
 
 }
