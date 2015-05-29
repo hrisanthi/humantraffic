@@ -1,21 +1,17 @@
+@@media query {
+
+}
+
+
 body{
   background-color: #7786a0;
 }
 
 .container{
-
-  background-color: white;
+  max-width: 620px;
+  min-width: 300px;
 }
 
-#city{
-  width: 100%;
-  position: relative;
-  border-bottom: 1px solid black;
-}
-
-#definition{
-  margin-top: 10px;
-}
 
 
 @-webkit-keyframes pulse_animation {
@@ -35,40 +31,68 @@ body{
 	-webkit-transform-origin:50% 70%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+
 }
 
-#game{
-  position: absolute;
-  top: 8%;
-  left: 53%;
+
+#city{
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid black;
+  background-color: white;
 }
+
+
+#definition{
+  margin-top: 10px;
+}
+
 
 #setting{
   position: absolute;
-  top: 20%;
-  left: 84%;
+  top: 19%;
+  left: 71%;
 }
 
 #victim{
   position: absolute;
-  top: 58%;
+  top: 64%;
   left: 78%;
 }
 
 #pimp{
   position: absolute;
-  top: 58%;
-  left: 73%;
+  top: 62%;
+  left: 72%;
 }
 
 #family{
   position: absolute;
-  top: 48%;
+  top: 55%;
   left: 60%;
 }
 
 #madam{
   position: absolute;
-  top: 58%;
-  left: 45%;
+  top: 63%;
+  left: 46%;
+}
+
+#motel{
+  position: absolute;
+  top: 36%;
+  left: 33%;
+}
+
+#customer{
+  position: absolute;
+  top: 59%;
+  left: 22%;
+}
+
+#truck{
+  position: absolute;
+  top: 60%;
+  left: 13%;
+
 }

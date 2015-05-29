@@ -24,6 +24,11 @@
               $('#div'+$(this).attr('target')).show();
         });
 
+        $('.words').click(function(){
+          $('.wordDef').hide();
+          $('#div'+$(this).attr('target')).show();
+        });
+
 
 });
 
@@ -37,8 +42,8 @@
 
   <img id="city" src="img/city.png">
 
-
-  <a target="1" id="game" class="button pulse"><img src="img/dot.png"></a>
+<div id='dots'>
+  <a target="1" id="setting" class="button pulse"><img src="img/dot.png"></a>
   <a target="2" id="victim" class="button pulse"><img src="img/dot.png"></a>
   <a target="3" id="pimp" class="button pulse"><img src="img/dot.png"></a>
   <a target="4" id="family" class="button pulse"><img src="img/dot.png"></a>
@@ -47,17 +52,79 @@
   <a target="7" id="customer" class="button pulse"><img src="img/dot.png"></a>
   <a target="8" id="truck" class="button pulse"><img src="img/dot.png"></a>
 </div>
-</div>
-</div>
-<div id="definition" class="container">
-  <div class="row">
-    <div class="col-md-12">
 
+</div>
+</div>
+<div class="row">
+<div style="background-color:white" class="col-md-12">
   <div id="div1" class="targetDef" style="display: none">
-    <h1>The Game — </h1>
-    <p>The subculture of prostitution comes complete with its own set of rules and language.
-      The game refers to prostitution as being something easy and fun when in reality it is harsher.
+    <h1>The Setting</h1>
+
+
+    <h2>Circuit</h2>
+    <p id="def1">A series of cities among which prostituted people are moved.
+      For example, the West Coast circuit which include San Diego, Las Vegas, Portland,
+      and the cities between. The term can also mean a chain of states. The Minisota pipeline
+      moves victims from state to state until they arrive in New York.</p>
+      <h2>Brothel</h2>
+    <p id="def2">Refers to an facility where sex is sold. Brothels have security to keep women and children in and robbers out.
+    Brothels can be open up to 24 hours a day. If closed than the victims are locked from the outside in.</p>
+    <h2>Escort Service</h2>
+    <p id="def3">An organization that operates via phone. Victims are sent out to the buyer or the buyer comes by to pick her up. Some Services partner
+    with others to have enough women for large parties or events.</p>
+    <h2>Kiddie Stroll</h2>
+    <p id="de4">An area that is know for prostituting young girls.</p>
+    <h2>Track</h2>
+    <p id="def5">An area know for it's prostitution activity.</p>
+
     </div>
+
+    <div id="div2" class="targetDef" style="display: none">
+
+      <h1>The Victim</h1>
+
+      <h2>Bottom</h2>
+      <p id="def6">The pimp's "right hand." She is appointed by the pimp to supervise over the other women.
+      She helps instruct victims, collect money, book hotel rooms, post ads, or punish the other girls.</p>
+
+      <h2>Branding</h2>
+      <p id="def7">A tatoo or carving on the victim that indicates ownership to the pimp.</p>
+
+      <h2>Trick</h2>
+      <p id="def8">Verb: Committing an act of prostitution.</p>
+
+      <h2>Turn Out</h2>
+      <p id="def9">A person newly involoved in the game.</p>
+
+
+    </div>
+
+    <div id="div3" class="targetDef" style="display:none">
+      <h1>The Pimp</h1>
+
+      <h2>Automatic</h2>
+      <p>When a victim's pimp is out of town or in jail the victim is expected to act by the rules. Most victims do act "automatic"
+      for fear of punishment or have been psychologically manipulated or feel a sense of loyalty to the pimp.</p>
+
+      <h2>Caught A Case</h2>
+      <p>When a pimp or victim have been arrested and charged.</p>
+
+      <h2>Choosing Up</h2>
+      <p></p>
+
+      <h2>Finesse Pimp/Romeo Pimp</h2>
+      <h2>Gorilla (or Guerilla) Pimp</h2>
+      <h2>Pimp Circle</h2>
+      <h2>Trade Up/Trade Down</h2>
+
+
+    </div>
+
+
+
+
+
+
   </div>
 </div>
 </div>
