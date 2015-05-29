@@ -10,6 +10,7 @@ body{
 .container{
   max-width: 620px;
   min-width: 300px;
+
 }
 
 
@@ -38,13 +39,16 @@ body{
 #city{
   width: 100%;
   position: relative;
-  border-bottom: 1px solid black;
   background-color: white;
 }
 
 
 #definition{
   margin-top: 10px;
+}
+
+#placeimg{
+  width: 100%;
 }
 
 
@@ -78,7 +82,7 @@ body{
   left: 46%;
 }
 
-#motel{
+#bank{
   position: absolute;
   top: 36%;
   left: 33%;
